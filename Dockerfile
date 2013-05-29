@@ -15,5 +15,5 @@ RUN apt-get install -y puppet ruby1.9.3 build-essential
 RUN gem install librarian-puppet
 
 # For laterz... when we have librarian-puppet install modules we'll put em under here
-mkdir -p /tmp/puppet
+RUN mkdir -p /tmp/puppet
 
